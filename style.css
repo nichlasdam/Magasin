@@ -10,3 +10,32 @@
     width: 50%;
     margin: 0 auto;
 }
+#banner {
+    display: -webkit-flex; 
+    display: flex; 
+    border-bottom: 1px grey solid;
+}
+#billede {
+    -webkit-flex: 2; 
+    flex: 2;
+}
+#billede img {
+    max-width: 100%; 
+}
+#billede_tekst {
+    -webkit-flex: 1;
+    flex: 1;
+}
+#ads {
+    display: -webkit-flex; 
+    display: flex; 
+}
+#ads .ad {
+   -webkit-flex: 1; 
+    flex: 1;
+    padding: 20px;
+}
+#ads .ad img {
+    max-width: 100%;
+    margin-top: 5px;
+}
