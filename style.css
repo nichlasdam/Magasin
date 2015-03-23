@@ -39,3 +39,14 @@
     max-width: 100%;
     margin-top: 5px;
 }
+#signUp {
+    border: 1px gray solid;
+    width: 542px;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+#signUp p  {
+    float: left;
+    margin-right: 25px; 
+}

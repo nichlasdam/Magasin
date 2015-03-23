@@ -7,6 +7,16 @@
         <meta name="description" content="">
         <meta name="author" content="">
         <link rel="stylesheet" type="text/css" href="style.css">
+        <script>
+            function subscribe() {
+                localStorage.subscribe = "Ja";
+                console.log("Nu kører det.")
+            }
+            function ignore() {
+                localStorage.subscribe = "Nej";
+                console.log("ignore");
+            }
+        </script>
         <title></title>
 
     <body>
@@ -15,6 +25,11 @@
                 <div id="logo">
                     <h1>Anything Magazine</h1>
                     <p>Read anything you want - from the authors you love</p>
+                </div>
+                <div id="signUp">
+                    <p>I would like to recieve news from Anything Magazine</p>
+                    <button onclick="subscribe()" id="YesPlease">Yes, Please!</button>
+                    <button onclick="ignore()" id="NoThanks">Later</button>
                 </div>
                 <div id="banner">
                     <div id="billede">
@@ -26,17 +41,7 @@
                 </div>
             </div>
             <div id="content">
-                <div id="ads">
-                    <div class="ad">
-                        <a href="news.html"><img src="https://placekitten.com/g/500/250"></a>
-                    </div>
-                    <div class="ad">
-                        <img src="https://placekitten.com/g/500/250">
-                    </div>
-                    <div class="ad">
-                        <img src="https://placekitten.com/g/500/250">
-                    </div>
-                </div>
+                
                 <div id="inner_content">
                 </div>
             </div>
