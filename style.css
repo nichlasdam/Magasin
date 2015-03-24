@@ -13,7 +13,9 @@
 #banner {
     display: -webkit-flex; 
     display: flex; 
-    border-bottom: 1px grey solid;
+    border-top: 1px grey solid;
+    padding: 10px;
+    border-bottom: 1px solid #9a9a9a;
 }
 #billede {
     -webkit-flex: 2; 
@@ -25,6 +27,16 @@
 #billede_tekst {
     -webkit-flex: 1;
     flex: 1;
+    text-align: center;
+    margin-top: 125px;
+}
+#billede_tekst h2, #billede_tekst span {
+    display: block;
+    width: 70px;
+    margin: 0 auto;   
+    font-style: italic;
+    font-size: 32px;
+    letter-spacing: 5px;
 }
 #ads {
     display: -webkit-flex; 
@@ -34,10 +46,31 @@
    -webkit-flex: 1; 
     flex: 1;
     padding: 20px;
+    border-right: 1px solid #ccc;
+    padding-right: 30px;
+    margin-top: 25px;
+    text-align: center;
+}
+#ads .ad:nth-child(3) {
+       border-right: none;
 }
 #ads .ad img {
-    max-width: 100%;
+    width: 100%;
     margin-top: 5px;
+    height: 143px;
+    height: 143px;
+}
+#ads .ad span {
+    width: 215px;
+    display: block;
+    margin: 0 auto;   
+    font-style: italic;
+    font-size: 32px;
+    letter-spacing: 5px;
+}
+#ads .ad p {
+ line-height: 25px;
+  letter-spacing: 1px;   
 }
 #signUp {
     border: 1px gray solid;
