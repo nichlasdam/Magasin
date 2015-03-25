@@ -9,6 +9,12 @@
 #header #logo {
     width: 50%;
     margin: 0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#header #logo a {
+    text-decoration: none;
+    color: black;
 }
 #banner {
     display: -webkit-flex; 
@@ -16,6 +22,7 @@
     border-top: 1px grey solid;
     padding: 10px;
     border-bottom: 1px solid #9a9a9a;
+    margin-top: 10px;
 }
 #billede {
     -webkit-flex: 2; 
@@ -76,10 +83,36 @@
     border: 1px gray solid;
     width: 542px;
     padding: 10px;
-    margin-bottom: 15px;
-    margin-top: 10px;
+    margin: 0 auto;
 }
 #signUp p  {
     float: left;
     margin-right: 25px; 
+}
+#baggrundsvideo {
+    position: fixed; right: 0; bottom: 0;
+    min-width: 100%; min-height: 100%;
+    width: auto; height: auto; z-index: -100;
+    background-size: cover;
+}
+#logoAbout {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+}
+#logoAbout h2, #logoAbout a {
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    font-style: italic;
+}
+#logoAbout p {
+    font-size: 16px;
+    color: lightblue;
+    margin-bottom: 15px;
+}
+.button-success {
+    background: rgb(28, 184, 65) !important; 
 }
