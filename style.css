@@ -176,9 +176,10 @@
 }   
 .three-col {
        -moz-column-count: 3;
-       -moz-column-gap: 20px;
+       -moz-column-gap: 70px;
        -webkit-column-count: 3;
        -webkit-column-gap: 20px;
+   
 }
 
 
