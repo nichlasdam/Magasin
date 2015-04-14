@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Canvas - AspIT2015</title>
+        <meta charset="utf-8">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>      
+        <script>
+            $(document).ready(function() {  
+                var canvas = document.getElementById("myCanvas");
+                var ctx = canvas.getContext("2d");
+                ctx.fillStyle = "#991b1e";
+                ctx.fillRect(10, 50, 50, 50);
+                ctx.fillStyle = "#2e3192";
+                ctx.fillRect(70, 50, 50, 50);
+                ctx.fillStyle = "#Fff200";
+                ctx.fillRect(130, 50, 50, 50);
+                ctx.fillStyle = "#ec008c";
+                ctx.fillRect(190, 50, 50, 50);
+                ctx.fillStyle = "#00aeef";
+                ctx.fillRect(250, 50, 50, 50);
+            });
+        </script>
+    </head>
+     
+    <body>
+        <canvas id="myCanvas">
+        </canvas>
+    </body>
+</html>
